@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #000000;
+}
+
+.container {
+  height: 1700px;
+  margin: 0 250px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.resume {
+  height: 1500px;
+}
+
+.heading {
+  height: 20%;
+  background-color: #565656;
+  position: relative;
+}
+
+/************************************* Profile Picture CSS *************************************/
+
+.profile-picture {
+  position: absolute;
+  top: 80px;
+  left: 385px;
+  border: 6px dotted #fabe28;
+  border-radius: 50%;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.profile-name {
+  position: absolute;
+  background-color: #fabe28;
+  border-radius: 5px;
+  top: 270px;
+  left: 290px;
+}
+
+.profile-name p {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 50px;
+  padding: 10px 30px;
+}
+
+.small-bg {
+  background-color: #565656;
+  height: 35px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.contact-details {
+  margin: 2px 70px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+  color: #565656;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/************************************* Skill Bar Design *************************************/
+
+.items {
+  width: 180px;
+  height: 25px;
+  position: relative;
+}
+
+.skill-bar {
+  background-color: #e0d5d5;
+  width: 180px;
+  height: 8px;
+  top: 10px;
+  position: absolute;
+}
+
+.actual-skill-1 {
+  background: linear-gradient(to right, #ffb700, #e4ce92);
+  height: 8px;
+  width: 128px;
+}
+
+.circle-1 {
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 4.5px;
+  left: 125px;
+  background-color: #ffffff;
+}
+
+.actual-skill-2 {
+  background: linear-gradient(to right, #ffb700, #e4ce92);
+  height: 8px;
+  width: 100px;
+}
+
+.circle-2 {
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 4.5px;
+  left: 97px;
+  background-color: #ffffff;
+}
+
+.actual-skill-3 {
+  background: linear-gradient(to right, #ffb700, #fae7ac);
+  height: 8px;
+  width: 100%;
+}
+
+.circle-3 {
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 4.5px;
+  left: 165px;
+  background-color: #ffffff;
+}
+
+/************************************* Wrapper Class of Grid Container *************************************/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(140px, auto);
+  margin: 30px;
+  column-gap: 5px;
+}
+
+.box {
+  font-weight: 300;
+  padding: 10px 30px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+/************************************* Icon CSS *************************************/
+
+.icon {
+  background-color: #565656;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.icon i {
+  color: #fabe28;
+  font-size: 20px;
+}
+
+.icon-name {
+  font-size: 25px;
+  color: #565656;
+}
+
+.text {
+  margin-top: 15px;
+}
+
+.make-bold {
+  font-weight: bold;
+}
+
+/************************************* Box 1 of Grid Wrapper Container *************************************/
+
+#box1 {
+  grid-row: 1/3;
+  grid-column: 2/3;
+  padding-right: 20px;
+  padding-bottom: 0;
+}
+
+.float-left {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+}
+
+.float-right {
+  float: right;
+  width: 50%;
+  text-align: right;
+  padding-right: 32px;
+}
+
+.clear-float {
+  clear: both;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+ul {
+  padding: 30px;
+}
+
+#box2 .icon {
+  background-color: #565656;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/************************************* Box 2 of Grid Wrapper Container *************************************/
+
+#box2 {
+  padding-right: 56px;
+}
+
+/************************************* Box 3 of Grid Wrapper Container *************************************/
+
+#box3 {
+  grid-row: 2/3;
+}
+
+#box2,
+#box3 {
+  border-right: 1px solid #6d6d6d;
+}
+
+/************************************* Table CSS *************************************/
+
+table {
+  padding-right: 28px;
+}
+
+td {
+  width: 100%;
+}
+
+caption {
+  margin-bottom: 10px;
+}
