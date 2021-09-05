@@ -32,7 +32,7 @@ body {
 .profile-picture {
   position: absolute;
   top: 80px;
-  left: 290px;
+  left: 310px;
   border: 6px dotted #fabe28;
   border-radius: 50%;
 }
