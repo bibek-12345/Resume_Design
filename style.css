@@ -32,7 +32,7 @@ body {
 .profile-picture {
   position: absolute;
   top: 80px;
-  left: 370px;
+  left: 360px;
   border: 6px dotted #fabe28;
   border-radius: 50%;
 }
@@ -48,7 +48,7 @@ img {
   background-color: #fabe28;
   border-radius: 5px;
   top: 270px;
-  left: 270px;
+  left: 260px;
 }
 
 .profile-name p {
