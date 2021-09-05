@@ -12,7 +12,7 @@ body {
 .container {
   height: 1700px;
   margin: 0 auto;
-  max-width: 1017px;
+  max-width: 900px;
   background-color: #ffffff;
   border: 1px solid #000000;
 }
